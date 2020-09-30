@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+:root{
+    --nav-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}
+html, body, .main-home, .main-menu, .main-contact {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1.5;
+   
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+input, button, textarea {
+    font-family: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+a{
+    text-decoration: none;
+}
+header{
+    font-family: 'Dosis', sans-serif;
+    display: block;
+    background-color: coral;
+    width: 100%;
+    /*max-width: 1280px;*/
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15px;
+    height: 8.6vh;
+    position: fixed;
+
+}
+.logo{
+    font-size: 36px;
+    color: var(--nav-color);
+    
+}
+
+.nav-list-item{
+    display: inline;
+    font-size: 30px;
+    padding-left: 30px;
+    
+}
+.nav-list-item a{
+    color: var(--nav-color);
+}
+.nav-list-link:hover,
+.nav-list-link_highlighted {
+  border-bottom: 3px solid black; 
+  color: wheat;
+}
+#content {
+    min-width: 500px;
+}
+
+.main-home{
+    padding-top: 150px;
+    
+    background-image:  url(../media/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(243, 235, 235);
+   
+}
+
+.home-title{
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+.home-subtitle{
+    padding-top: 20px;
+    
+}
+.home-content{
+    
+    padding-top: 60px;
+    padding-right: 130px;
+    padding-left: 150px;
+    line-height: 2.5rem;
+}
+.main-menu{
+    padding-top: 100px;
+    background-image:  url(../media/menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #01579b;
+    color: rgb(46, 21, 12);
+    font-weight: 600;
+    
+}
+
+.menu-grid{
+    background-color: wheat;
+    width: 800px;
+    margin-left: 290px;
+    padding-bottom: 50px;
+}
+.meni-item-h4{
+    width: 200px;
+    text-align: center;
+  
+    background-color: black;
+    color:wheat;
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.main-contact{
+    padding-top: 10px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;
+}
+form{
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+    padding-top: 20px;
+    margin-right: 50px;
+
+    
+}
+.form-header, .details{
+    font-size: 30px;
+    font-weight: 700;
+}
+.form-label, button{
+    display: block;
+    font-size: 26px;
+}
+input{
+    width: 200px;
+    height: 1.5rem;
+}
+textarea{
+    width: 200px;
+    height: 5rem;
+}
+button{
+    text-align: center;
+    margin-left: 160px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+button:hover{
+    background-color: wheat;
+}
+.contact-info{
+    height: 400px;
+    padding-top: 20px;
+    font-size: 26px;
+}
+.details{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hrs{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
