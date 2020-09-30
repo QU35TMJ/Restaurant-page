@@ -1,0 +1,1 @@
+Restaurant project using npm,webpack and ES6 modules.
